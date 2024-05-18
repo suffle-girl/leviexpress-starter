@@ -34,8 +34,8 @@ export const ReservationPage = () => {
             <div className="reservation__info">
                 {console.log(reservation)}
               <p>{reservation.date}</p>
-              <p>{reservation.fromCity}</p>
-              <p>{reservation.toCity}</p>
+              <p>{reservation.fromCity.name}</p>
+              <p>{reservation.toCity.name}</p>
               <p>{reservation.seatNumber}</p>
             </div>
           </div>
