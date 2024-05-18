@@ -14,7 +14,6 @@ export const ReservationPage = () => {
       const data = await response.json();
       const data2 = data.results;
       setReservation(data2);
-      console.log(data2);
     };
     fetchData();
   }, []);
@@ -32,7 +31,6 @@ export const ReservationPage = () => {
               <p>Sedadlo:</p>
             </div>
             <div className="reservation__info">
-                {console.log(reservation)}
               <p>{reservation.date}</p>
               <p>{reservation.fromCity.name}</p>
               <p>{reservation.toCity.name}</p>

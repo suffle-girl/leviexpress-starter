@@ -1,16 +1,6 @@
-/* ---------- styly pro výběr sedadla  ---------- */
+/* ---------- styly pro sedadlo  ---------- */
 
-.seat-picker {
-    padding: 2rem;
-  }
-  
-  .seats {
-    margin: 2rem 0;
-  }
-  
-  /* ---------- styly pro sedadlo  ---------- */
-  
-  .selected-seat {
+.selected-seat {
     padding: 2rem;
   }
   
