@@ -37,7 +37,8 @@ export const HomePage = () => {
     <main>
       <JourneyPicker onJourneyChange={handleJourneyChange} />
       {journey && <JourneyDetail journey={journey.stops} />}
-      {journey && <SeatPicker />}
+      {journey && <SeatPicker seats={journey.seats} />}
+      {journey && console.log(journey.seats)}
       {journey && (
         <div className="controls container">
           <button onClick={handleBuy} className="btn btn--big" type="button">
